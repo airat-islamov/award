@@ -825,15 +825,27 @@
                 <picture class="banner__img">
                   <source
                     media="(max-width: 480px)"
-                    srcset="img/banner/banner-img-1-mob.png"
+                    srcset="
+                      img/banner/banner-img-1-mob.png    1x,
+                      img/banner/banner-img-1-mob-x2.png 2x
+                    "
+                    height="148"
                   />
                   <source
                     media="(min-width: 769px)"
-                    srcset="img/banner/banner-img-1-desktop.png"
+                    srcset="
+                      img/banner/banner-img-1-desktop.png    1x,
+                      img/banner/banner-img-1-desktop-x2.png 2x
+                    "
+                    height="322"
                   />
                   <source
                     media="(max-width: 768px)"
-                    srcset="img/banner/banner-img-1-tablet.png"
+                    srcset="
+                      img/banner/banner-img-1-tablet.png    1x,
+                      img/banner/banner-img-1-tablet-x2.png 2x
+                    "
+                    height="282"
                   />
                   <img src="img/banner/banner-img-1-desktop.png" alt="Баннер" />
                 </picture>
@@ -1485,15 +1497,27 @@
                 <picture class="banner-reverse__img">
                   <source
                     media="(max-width: 480px)"
-                    srcset="img/banner/banner-img-2-mob.png"
+                    srcset="
+                      img/banner/banner-img-2-mob.png    1x,
+                      img/banner/banner-img-2-mob-x2.png 2x
+                    "
+                    height="148"
                   />
                   <source
                     media="(min-width: 769px)"
-                    srcset="img/banner/banner-img-2-desktop.png"
+                    srcset="
+                      img/banner/banner-img-2-desktop.png    1x,
+                      img/banner/banner-img-2-desktop-x2.png 2x
+                    "
+                    height="322"
                   />
                   <source
                     media="(max-width: 768px)"
-                    srcset="img/banner/banner-img-2-tablet.png"
+                    srcset="
+                      img/banner/banner-img-2-tablet.png    1x,
+                      img/banner/banner-img-2-tablet-x2.png 2x
+                    "
+                    height="282"
                   />
                   <img src="img/banner/banner-img-2-desktop.png" alt="Баннер" />
                 </picture>
@@ -2148,15 +2172,27 @@
                 <picture class="banner__img">
                   <source
                     media="(max-width: 480px)"
-                    srcset="img/banner/banner-img-3-mob.png"
+                    srcset="
+                      img/banner/banner-img-3-mob.png    1x,
+                      img/banner/banner-img-3-mob-x2.png 2x
+                    "
+                    height="148"
                   />
                   <source
                     media="(min-width: 769px)"
-                    srcset="img/banner/banner-img-3-desktop.png"
+                    srcset="
+                      img/banner/banner-img-3-desktop.png    1x,
+                      img/banner/banner-img-3-desktop-x2.png 2x
+                    "
+                    height="322"
                   />
                   <source
                     media="(max-width: 768px)"
-                    srcset="img/banner/banner-img-3-tablet.png"
+                    srcset="
+                      img/banner/banner-img-3-tablet.png    1x,
+                      img/banner/banner-img-3-tablet-x2.png 2x
+                    "
+                    height="282"
                   />
                   <img src="img/banner/banner-img-3-desktop.png" alt="Баннер" />
                 </picture>
@@ -2776,15 +2812,27 @@
                 <picture class="banner-reverse__img">
                   <source
                     media="(max-width: 480px)"
-                    srcset="img/banner/banner-img-4-mob.png"
+                    srcset="
+                      img/banner/banner-img-4-mob.png    1x,
+                      img/banner/banner-img-4-mob-x2.png 2x
+                    "
+                    height="148"
                   />
                   <source
                     media="(min-width: 769px)"
-                    srcset="img/banner/banner-img-4-desktop.png"
+                    srcset="
+                      img/banner/banner-img-4-desktop.png    1x,
+                      img/banner/banner-img-4-desktop-x2.png 2x
+                    "
+                    height="322"
                   />
                   <source
                     media="(max-width: 768px)"
-                    srcset="img/banner/banner-img-4-tablet.png"
+                    srcset="
+                      img/banner/banner-img-4-tablet.png    1x,
+                      img/banner/banner-img-4-tablet-x2.png 2x
+                    "
+                    height="282"
                   />
                   <img src="img/banner/banner-img-4-desktop.png" alt="Баннер" />
                 </picture>
@@ -3419,11 +3467,14 @@
           <!-- /.hots__products -->
         </section>
         <!-- /.hots -->
-        <div class="main-button main-button--margin-bottom">
-          <button class="main-button__btn btn-css-clear">
-            <span class="main-button__text">Смотреть все товары</span>
-          </button>
+        <div class="container">
+          <div class="main-button main-button--margin-bottom">
+            <button class="main-button__btn btn-css-clear">
+              <span class="main-button__text">Смотреть все товары</span>
+            </button>
+          </div>
         </div>
+        <!-- /.container -->
       </section>
       <!-- /.award-products -->
     </div>
