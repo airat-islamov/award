@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.wrapper > * {
+.wrapper * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #202020;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 1248px;
+  max-width: 1296px;
   padding: 0 24px;
   margin: 0 auto;
 }
@@ -69,6 +69,9 @@ body {
   background: #7BA148;
   border: 4px solid #7BA148;
   color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
 }
 .main-button__btn:hover {
   border: 4px solid #7BA148;
@@ -76,11 +79,6 @@ body {
   -webkit-transition: background 0.25s;
   transition: background 0.25s;
   color: #7BA148;
-}
-.main-button__text {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.2;
 }
 
 @media (max-width: 768px) {
@@ -499,7 +497,7 @@ body {
 
 .categories__container {
   position: relative;
-  max-width: 1248px;
+  max-width: 1296px;
   padding: 0 24px;
   margin: 0 auto;
 }
