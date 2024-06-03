@@ -80,6 +80,9 @@ body {
   transition: background 0.25s;
   color: #7BA148;
 }
+.main-button__link {
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .title {
@@ -403,6 +406,7 @@ body {
   color: #FFFFFF;
 }
 .banner__button {
+  display: inline-block;
   border: 1px solid #FFFFFF;
   border-radius: 50px;
   padding: 24px 44px;
@@ -415,6 +419,9 @@ body {
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.1);
+}
+.banner__button__link {
+  text-decoration: none;
 }
 
 .banner-reverse__wrapper {
@@ -532,6 +539,9 @@ body {
 }
 .categories__card--extra {
   display: none;
+}
+.categories__card__link {
+  text-decoration: none;
 }
 .categories__icon {
   display: -webkit-box;
